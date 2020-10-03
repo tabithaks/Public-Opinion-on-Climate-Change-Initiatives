@@ -16,8 +16,8 @@ def get_twarc_object(consumer_key, consumer_secret, access_token, access_token_s
     return twarc.Twarc(consumer_key, consumer_secret, access_token, access_token_secret)
 
 
-def get_tweet_json(file_name, range_start, range_end, output_file_name, twarc_t):
-    with open(file_name) as tweet_file:
+def get_tweet_json(input_file_name, range_start, range_end, output_file_name, twarc_t):
+    with open(input_file_name) as tweet_file:
         tweet_ids = tweet_file.readlines()[range_start: range_end]
 
     tweets = list(twarc_t.hydrate(tweet_ids))
