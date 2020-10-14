@@ -4,7 +4,7 @@ from pandas.io.json import json_normalize
 
 
 def get_twitter_api_credentials():
-    with open('../data/twitter_credentials.txt') as json_file:
+    with open('../Data/twitter_credentials.txt') as json_file:
         data = json.load(json_file)
     consumer_key = data['consumer_key']
     consumer_secret = data['consumer_secret']
@@ -38,7 +38,7 @@ def get_tweet_csv(input_file_name, range_start, range_end, output_file_name, twa
 def main():
     consumer_key, consumer_secret, access_token, access_token_secret = get_twitter_api_credentials()
     twarc_t = get_twarc_object(consumer_key, consumer_secret, access_token, access_token_secret)
-    input_file_name = "../data/tweet_ids/climate_id.txt.00"
+    input_file_name = "../data/tweet_ids/climate_id.txt.01"
     range_start = 0
     range_end = 100
     output_file_name = "../data/tweets/tweet_" + input_file_name[-2:] + "_" + str(range_start) + "_" + str(range_end)

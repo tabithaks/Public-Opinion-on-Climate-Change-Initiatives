@@ -5,8 +5,14 @@ import string
 
 def get_entities(twitter_data, column = "hashtags"):
     twitter_data = twitter_data.copy()
-    twitter_data[column] = twitter_data[column].apply(eval)
+    #twitter_data[column] = twitter_data[column].apply(eval)
     return [hashtag for hashtags in list(twitter_data[column]) for hashtag in hashtags]
+
+def get_cols(twitter_data, column = "full_text"):
+    twitter_data['hashtags'] = twitter_data['full_text'].apply(lambda x: re.findall(r"#(\w+)", x))
+    twitter_data['mentions'] = twitter_data['full_text'].apply(lambda x: re.findall(r"@(\w+)", x))
+    twitter_data['full_text'] = twitter_data['full_text'].str.replace(r'http\S+', '', regex=True)
+    twitter_data["created_at"] = pd.to_datetime(twitter_data["created_at"])
 
 #combines clean_text_round1 and clean_text_round2 from Starter Exploratory Analysis Notebook
 def clean_text_lda(text):
