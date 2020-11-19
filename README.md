@@ -5,7 +5,7 @@ Understanding public opinion is essential for politicians and business people al
 Similarly, understanding popular opinion toward climate change could help businesses discover opportunities. In the context of well-established companies increasingly emphasizing sustainability, understanding which initiatives are popular could help them determine what to prioritize. This project could also provide some initial insight into potential market gaps for social entrepreneurs attempting to build sustainable businesses from the ground up. 
 
 The main questions we are attempting to answer, with the goal of providing the insight described above, are: 
-- what are patterns in public perception of climate change policies? 
+- What are patterns in public perception of climate change policies? 
 - How have these perceptions changed over time?
 
 # Sitemap
