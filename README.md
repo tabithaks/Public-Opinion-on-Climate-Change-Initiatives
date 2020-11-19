@@ -9,6 +9,7 @@ The main questions we are attempting to answer, with the goal of providing the i
 `Archive`
   - `Paris_v_GND_Try2.ipynb`: Experiment with prophet library
   - `gnd_location.py`: pyspark script to find locations from Twitter locations string
+  
 `EDA`: Exploratory data analysis
   - `A Starter Look Into Cleaning and Exploratory Data Analysis`: Initial look at recently scraped green new deal data
   - `Carbon Neutral EDA.ipynb`: EDA of recently scraped carbon neutral tweets
@@ -16,6 +17,7 @@ The main questions we are attempting to answer, with the goal of providing the i
   - `Paris Agreement EDA.ipynb`: EDA of recently scraped Paris Agreement data
   - `Plastic EDA.ipynb`: EDA of recently scraped tweets on plastic
   - `Project EDA and Topic Analysis.ipynb`: Complete EDA for recently scraped Green New Deal and Paris Agreement data
+  
 `Sentiment Analysis`
   - `Paris_v_GND.ipynb`: Sentiment Analysis, and attempt linear regression for sentiment analysis on hsitorical Twitter data
   - `Time Series Graph Sentiment Analysis.ipynb`: Sentiment over time
@@ -24,5 +26,6 @@ The main questions we are attempting to answer, with the goal of providing the i
   - `sentiment_analysis_paris.ipynb`: Paris historical data sentiment analysis
   - `time_series_prophet.py`: Script for prophet library
   - `topic_sentiment_analysis_gnd.ipynb`: Sentiment analysis historical green new deal data
+  
 `TwitterDataAnalysis`: scripts for scraping and processing the data
 `Data`: place holder file for Twitter api user info
