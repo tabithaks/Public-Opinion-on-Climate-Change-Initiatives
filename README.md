@@ -28,4 +28,5 @@ The main questions we are attempting to answer, with the goal of providing the i
   - `topic_sentiment_analysis_gnd.ipynb`: Sentiment analysis historical green new deal data
   
 `TwitterDataAnalysis`: scripts for scraping and processing the data
+
 `Data`: place holder file for Twitter api user info
