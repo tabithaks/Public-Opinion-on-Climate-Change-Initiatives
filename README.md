@@ -8,7 +8,7 @@ The main questions we are attempting to answer, with the goal of providing the i
 - What are patterns in public perception of climate change policies? 
 - How have these perceptions changed over time?
 
-# Sitemap
+## Sitemap
 
 `Archive`
   - `Paris_v_GND_Try2.ipynb`: Experiment with prophet library
